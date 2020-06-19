@@ -17,16 +17,24 @@ html {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.group {
+  /* width: 100vw; */
+  display: flex;
+  /* width: 100%; */
 }
 
 .key {
+  display: inline-block;
   border: .4rem solid black;
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
   transition: all .07s ease;
-  width: 10rem;
+  width: 6vw;
   text-align: center;
   color: white;
   background: rgba(0, 0, 0, 0.4);
